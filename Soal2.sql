@@ -1,4 +1,4 @@
-SELECT customers.customerNumber
+SELECT customerNumber
 FROM customers
 JOIN orders ON customers.customerNumber = orders.customerNumber
 JOIN orderdetails ON orders.orderNumber = orderdetails.orderNumber
